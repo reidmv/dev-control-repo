@@ -7,6 +7,7 @@ mod 'puppetlabs-bolt_shim', '0.3.0'
 mod 'puppetlabs-stdlib', '6.1.0'
 mod 'puppetlabs/concat',  '6.0.0'
 mod 'puppetlabs/inifile', '3.0.0'
+mod 'puppet-cassandra', '2.7.3'
 mod 'WhatsARanjit-node_manager', '0.7.2'
 
 # Modules from Git
