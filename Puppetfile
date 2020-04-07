@@ -17,4 +17,4 @@ mod 'puppetlabs-peadm',
     ref: 'master'
 mod 'reidmv-puppet_data_service',
     git: 'https://github.com/reidmv/reidmv-puppet_data_service.git',
-    ref: 'metadata-to-data'
+    ref: 'master'
