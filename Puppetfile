@@ -20,6 +20,6 @@ mod 'puppetlabs-peadm',
 mod 'reidmv-puppet_data_service',
     git: 'https://github.com/reidmv/reidmv-puppet_data_service.git',
     ref: 'rename-nodedata-fields'
-mod 'reidmv-xampl',
-    git: 'https://github.com/reidmv/reidmv-xampl.git',
-    ref: 'comment'
+mod 'reidmv-annotation',
+    git: 'https://github.com/reidmv/reidmv-annotation.git',
+    ref: 'master'
