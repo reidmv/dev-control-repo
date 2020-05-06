@@ -1,2 +1,7 @@
 ---
 message: "This node is using common data"
+
+change_risk::risk_permitted:
+  low: true
+  medium: true
+  high: true
