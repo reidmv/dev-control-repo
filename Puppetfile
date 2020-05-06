@@ -23,3 +23,6 @@ mod 'reidmv-puppet_data_service',
 mod 'reidmv-annotation',
     git: 'https://github.com/reidmv/reidmv-annotation.git',
     ref: 'master'
+mod 'reidmv-change_risk',
+    git: 'https://github.com/reidmv/reidmv-change_risk.git',
+    ref: 'master'
