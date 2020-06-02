@@ -16,7 +16,7 @@ mod 'puppetlabs/inifile', '3.0.0'
 # Modules from Git
 mod 'puppetlabs-peadm',
     git: 'https://github.com/puppetlabs/puppetlabs-peadm.git',
-    ref: '2019.7'
+    ref: 'convert-2018'
 mod 'reidmv-puppet_data_service',
     git: 'https://github.com/reidmv/reidmv-puppet_data_service.git',
     ref: 'rename-nodedata-fields'
