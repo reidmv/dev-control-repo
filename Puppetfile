@@ -19,7 +19,7 @@ mod 'puppetlabs-peadm',
     ref: 'upgrade-from-2018'
 mod 'reidmv-puppet_data_service',
     git: 'https://github.com/reidmv/reidmv-puppet_data_service.git',
-    ref: 'master'
+    ref: 'modules-table'
 mod 'reidmv-annotation',
     git: 'https://github.com/reidmv/reidmv-annotation.git',
     ref: 'master'
