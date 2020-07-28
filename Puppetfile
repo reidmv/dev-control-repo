@@ -10,8 +10,9 @@ mod 'puppetlabs-firewall', '2.3.0'
 mod 'puppetlabs-puppetserver_gem', '1.1.1'
 mod 'puppetlabs-ruby_task_helper', '0.5.1'
 mod 'puppetlabs-stdlib', '6.1.0'
-mod 'puppetlabs/concat',  '6.0.0'
-mod 'puppetlabs/inifile', '3.0.0'
+mod 'puppetlabs-concat',  '6.0.0'
+mod 'puppetlabs-inifile', '3.0.0'
+mod 'puppetlabs-cd4pe_jobs', '1.4.0'
 
 # Modules from Git
 mod 'puppetlabs-peadm',
