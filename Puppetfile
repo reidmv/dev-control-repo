@@ -17,10 +17,10 @@ mod 'puppetlabs-cd4pe_jobs', '1.4.0'
 # Modules from Git
 mod 'puppetlabs-peadm',
     git: 'https://github.com/puppetlabs/puppetlabs-peadm.git',
-    ref: 'upgrade-from-2018'
+    ref: 'main'
 mod 'reidmv-puppet_data_service',
     git: 'https://github.com/reidmv/reidmv-puppet_data_service.git',
-    ref: 'modules-table'
+    ref: 'master'
 mod 'reidmv-annotation',
     git: 'https://github.com/reidmv/reidmv-annotation.git',
     ref: 'master'
