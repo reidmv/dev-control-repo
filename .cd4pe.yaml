@@ -1,0 +1,15 @@
+---
+spec_version: "V1"
+config:
+  deployment_policy_branch: master
+pipelines:
+  master:
+    stages:
+      - name: "Validate"
+        auto_promote: false
+        steps:
+          - type: "PULL_REQUEST_GATE"
+            concurrent_compilations: 0
+            all_deployments: false
+    triggers:
+      - "COMMIT"
