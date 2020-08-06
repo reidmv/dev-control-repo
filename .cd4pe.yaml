@@ -8,6 +8,22 @@ pipelines:
       - name: "Validate"
         auto_promote: false
         steps:
+          - type: "JOB"
+            name: "control-repo-manifest-validate"
+            concurrent_compilations: 0
+            all_deployments: false
+          - type: "JOB"
+            name: "control-repo-hiera-syntax-validate"
+            concurrent_compilations: 0
+            all_deployments: false
+          - type: "JOB"
+            name: "control-repo-template-syntax-validate"
+            concurrent_compilations: 0
+            all_deployments: false
+          - type: "JOB"
+            name: "control-repo-puppetfile-syntax-validate"
+            concurrent_compilations: 0
+            all_deployments: false
           - type: "PULL_REQUEST_GATE"
             concurrent_compilations: 0
             all_deployments: false
