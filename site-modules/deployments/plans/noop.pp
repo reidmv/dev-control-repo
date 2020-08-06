@@ -1,3 +1,3 @@
-plan deployments::noop {
+plan deployments::noop () {
   return('No-op')
 }
